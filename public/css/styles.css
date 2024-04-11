@@ -10,6 +10,20 @@
     border: solid 1px #999999;
     background-color: #25cd95;
 }
+.form-check{
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding-left: 0;
+}
+.form-check-label {
+    text-align: left; /* Căn lề bên trái cho label */
+   
+    margin-right: 3rem; /* Khoảng cách giữa label và checkbox */
+}
+/* Chỉnh kích thước checkbox lớn hơn */
+.form-check-input[type="checkbox"] {
+    transform: scale(1.5); /* Thay đổi giá trị này để điều chỉnh kích thước */
+}
 .btn-ps
 {
     display: flex;
@@ -21,3 +35,9 @@ h1
     justify-content: center;
     color: #25cd95;
 }
+/* The "Forgot password" text */
+  a {
+    text-decoration: none;
+  }
+  
+  
